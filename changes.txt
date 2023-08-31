@@ -1,0 +1,7 @@
+Line 1051: Switched 'np.empty' to 'np.zeros'
+thetas = np.zeros(len(angles))
+
+-----Use of np.empty results in an initalisation error as the resulting array can contain very large or small values, impacting the resulting bond angles.
+-----Use of np.zeros ensures bond angle calculations have contributions only due to the bead coordinate.
+
+
