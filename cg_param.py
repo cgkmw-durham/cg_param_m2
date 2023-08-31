@@ -1048,7 +1048,7 @@ def write_angles(itp,bonds,constraints):
     if angles:
         itp.write('\n[angles]\n')
         coords = np.zeros((len(beads),3))
-        thetas = np.empty(len(angles))
+        thetas = np.zeros(len(angles))
         for conf in mol.GetConformers():
             for i,bead in enumerate(beads):
                 coords[i] = bead_coords(bead,conf)
