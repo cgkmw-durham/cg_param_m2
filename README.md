@@ -1,4 +1,6 @@
 # cg_param_m2
+-----------------Outdated version of code: See default branch for most recent release---------------
+
 Coarse-grained mapping and parametrisation for the Martini 2 forcefield
 
 Run with: ./cg_param.py "[SMILES]" [name].gro [name].itp
